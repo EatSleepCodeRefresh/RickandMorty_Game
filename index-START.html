@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Whack an ALIEN!</title>
+  <title>Whack a Rick!</title>
   <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -89,7 +89,6 @@
     score++;
     this.parentNode.classList.remove('up');
     scoreBoard.textContent = score;
-	onmousedown="RickandMorty.play()"
   }
 
   moles.forEach(mole => mole.addEventListener('click', bonk));
